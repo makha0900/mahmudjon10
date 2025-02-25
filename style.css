@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+nav {
+    background-color: #023e8a;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #0096c7;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #03045e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Добавим стиль для логотипа */
+.logo {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.logo img {
+    height: 100px; /* Размер логотипа */
+    width: auto;
+}
+.меню img {
+    width: 1290px; /* Устанавливаем ширину изображения */
+    height: 500px; /* Сохраняем пропорции */
+    /* Или можно использовать height для установки фиксированной высоты */
+    /* height: 100px; */
+}
+table {
+    width: 100%; /* Таблица будет занимать всю ширину родительского контейнера */
+    border-collapse: collapse; /* Сливает границы */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+th, td {
+    padding: 10px; /* Отступы внутри ячеек */
+    text-align: left; /* Выравнивание текста по левому краю */
+    border: 1px solid #ddd; /* Границы ячеек */
+}
+
+th {
+    background-color: #f2f2f2; /* Светлый фон для заголовков */
+}
+/* Стили для секции "Дар бораи донишгоҳ" */
+#about {
+    background-color: #f9f9f9; /* Светлый фон для улучшения контраста */
+    padding: 20px; /* Отступы вокруг контента */
+    border-radius: 10px; /* Скругленные углы */
+    margin-bottom: 30px; /* Отступ снизу */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень для создания эффекта подъема */
+}
+
+#about h2 {
+    font-size: 1.8em;
+    color: #003366; /* Цвет для заголовка */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555; /* Темно-серый цвет для текста */
+    margin-bottom: 15px; /* Отступ между абзацами */
+}
+
+#about ul {
+    list-style-type: disc; /* Круглые маркеры для списка */
+    margin-left: 20px; /* Отступ слева для списка */
+}
+
+#about ul li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Стили для секции "Факултетҳо" */
+#departments {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#departments h2 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+#departments ul {
+    list-style-type: none; /* Без маркеров */
+    padding: 0;
+}
+
+#departments ul li {
+    font-size: 1.2em;
+    color: #003366;
+    padding: 5px 0; /* Добавлен отступ между элементами списка */
+}
+
+#departments ul li::before {
+    content: "✔️"; /* Используем значок ✔ перед каждым факультетом */
+    margin-right: 10px; /* Отступ между значком и текстом */
+    color: green;
+}
+/* Стили для секции "Маълумот" */
+#information {
+    background-color: #f0f8ff; /* Светло-голубой фон для легкости */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; /* Отступ снизу */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для объема */
+}
+
+#information h2 {
+    font-size: 1.8em;
+    color: #003366; /* Темно-синий цвет для заголовка */
+    margin-bottom: 10px; /* Отступ снизу */
+    font-weight: bold; /* Утолщенный шрифт для заголовка */
+}
+
+#information p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555; /* Темно-серый цвет для текста */
+    margin-bottom: 15px; /* Отступ между абзацами */
+    text-align: justify; /* Выравнивание текста по ширине */
+}
+/* Общие стили для секций */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для заголовков */
+section h2 {
+    color: #003366;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Стили для таблиц */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+}
+
+.styled-table td {
+    background-color: #f9f9f9;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+    background-color: #e1e1e1;
+}
+
+/* Дополнительные стили для абзацев */
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+/* Стиль для контейнера снега */
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Чтобы снег не мешал взаимодействовать с другими элементами */
+    z-index: 9999;
+    overflow: hidden;
+}
+
+/* Стиль для снежинок */
+.snowflake {
+    position: absolute;
+    top: -10px; /* Начальная позиция выше экрана */
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    user-select: none; /* Чтобы не выделять снежинки */
+    pointer-events: none; /* Снежинки не будут мешать кликам */
+    animation: fall linear infinite;
+}
+
+/* Анимация для падения снежинок */
+@keyframes fall {
+    0% {
+        transform: translateY(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
